@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2015-2024 CERN.
 # SPDX-FileCopyrightText: 2024-2025 Graz University of Technology.
 # SPDX-FileCopyrightText: 2025 Northwestern University.
+# SPDX-FileCopyrightText: 2026 TU Wien.
 # SPDX-License-Identifier: MIT
 
 """Invenio application loader.
@@ -253,7 +254,7 @@ except AttributeError:
 
     security.safe_str_cmp = hmac.compare_digest
 
-__version__ = "2.4.0"
+__version__ = "2.4.1"
 
 __all__ = (
     "__version__",
